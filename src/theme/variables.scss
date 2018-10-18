@@ -86,3 +86,11 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face {
+  font-family: weathericons;
+  src: url(../assets/fonts/weathericons-regular-webfont.eot);
+  src: url(../assets/fonts/weathericons-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../assets/fonts/weathericons-regular-webfont.woff2) format('woff2'), url(../assets/fonts/weathericons-regular-webfont.woff) format('woff'), url(../assets/fonts/weathericons-regular-webfont.ttf) format('truetype'), url(../assets/fonts/weathericons-regular-webfont.svg#weather_iconsregular) format('svg');
+  font-weight: 400;
+  font-style: normal
+}
