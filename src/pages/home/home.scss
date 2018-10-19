@@ -1,7 +1,14 @@
 page-home {
   .ribbon {
-    background: rgb(50,50,50);
+    background: #323232;
     color: white;
     text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+
+    .temperature-text, .temperature-icon {
+      font-size: 1.3em;
+    }
+
   }
 }
